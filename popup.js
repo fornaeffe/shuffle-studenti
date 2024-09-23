@@ -13,6 +13,12 @@ chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
           li.textContent = studente;
           listaStudenti.appendChild(li);
         });
+
+        if (studenti.length == 0) {
+          listaStudenti.textContent = "Nessuno studente trovato. " +
+          "L'estensione funziona solo se hai aperto il Registro di Classe " +
+          "del registro elettronico Spaggiari."
+        }
       }
     });
   });
