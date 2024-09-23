@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Elenco Studenti</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+    ul {
+      list-style-type: none;  /* Rimuovi i bullet points */
+      padding: 0;
+    }
+    li {
+      white-space: nowrap;  /* Evita che il testo vada a capo */
+      overflow: hidden;     /* Nascondi il testo in eccesso */
+      text-overflow: ellipsis;  /* Aggiungi '...' se il testo è troppo lungo */
+      border-bottom: 1px solid grey;
+      margin-top: 4px;
+      margin-bottom: 4px;
+      padding-bottom: 4px;
+    }
+  </style>
+</head>
+<body>
+  <ul id="studenti"></ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>

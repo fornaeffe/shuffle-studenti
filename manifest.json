@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Sorteggia Studenti",
+    "version": "1.0",
+    "description": "Mostra l'elenco degli studenti ordinato casualmente. Da usare nella pagina 'Registro' di una classe del registro Spaggiari",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Elenco Studenti"
+    }
+  }
